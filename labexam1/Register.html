@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Myregis.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิกผู้ใช้งาน</title>   
+
+</head>
+<body>
+    <h1><center>สมัครสมาชิกผู้ใช้งาน</center></h1>
+
+    <form>
+        <h2>1. ข้อมูลส่วนตัว</h2>
+        <label for="username">ชื่อผู้ใช้:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="fullname">ชื่อ-นามสกุล:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="Tel">เบอร์โทร:</label>
+        <input type="tel" id="num" name="Tel" required>
+
+        <label for="Email">อีเมล:</label>
+        <input type="email" id="email" name="Email" required>
+
+
+        <label for="password">รหัสผ่าน:</label>
+        <input type="password" id="password" name="password" required>   
+
+
+        <h2>2. ที่อยู่ปัจจุบัน</h2>
+        <label for="address">บ้านเลขที่:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="province">จังหวัด:</label>
+        <select id="province" name="province" required>
+            <option value="">เลือกจังหวัด</option>
+            <option value="">ปทุมธานี</option>
+            </select>
+
+        <label for="district">อำเภอ:</label>
+        <select id="district" name="district" required>
+            <option value="">เลือกอำเภอ</option>
+            <option value="">รังสิต</option>
+            <option value="">ธัญบุรี</option>
+            </select>
+
+        <label for="subdistrict">ตำบล:</label>
+        <select id="subdistrict" name="subdistrict" required>
+            <option value="">เลือกตำบล</option>
+            <option value="">ลำผักกูด</option>
+            <option value="">บึงยี่โถ</option>
+            </select>
+
+        <label for="postal_code">รหัสไปรษณีย์:</label>
+        <input type="text" id="postal_code" name="postal_code" required>
+
+        <label for="address_details">รายละเอียดที่อยู่:</label>
+        <input type="text" id="address_details" name="address_details">
+
+        <label for="profile_image">อัพโหลดรูปโปรไฟล์:</label>
+        <input type="file" id="profile_image" name="profile_image">
+
+    </form>  
+        <center><a href="profile.html">
+            <button>สมัครสมาชิก</button>
+        </a>
+        <a href="login01.html">
+            <button>ยกเลิก</button>
+        </a></center>
+</body>
+</html>

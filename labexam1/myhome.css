@@ -1,0 +1,33 @@
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url(background.jpg);
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .service-card {
+            border: 3px solid #c45c07d0;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .service-image {
+            width: 250px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .service-title {
+            font-weight: bold;
+        }
